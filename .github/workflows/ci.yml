@@ -2,9 +2,9 @@ name: CI
 
 on:
   pull_request:
-    branches: [ testing ]
-  push:
     branches: [ main ]
+  push:
+    branches: [ development, main ]
 
 jobs:
   scan_ruby:
